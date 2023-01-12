@@ -24,7 +24,7 @@ ul {
 }
 a {
   text-decoration: none;
-  cursor: default;
+  
 }
 
 .container {
@@ -34,4 +34,23 @@ a {
 }
 body {
   background-color: #000;
+}
+
+h2.section-title {
+  display: flex;
+  align-items: center;
+  font-size: 28px;
+  font-weight: 700;
+  font-family: 'Mulish';
+  color: #fff;
+  margin-bottom: 45px;
+  &::before {
+    content: '';
+    display: block;
+    width: 35px;
+    height: 8px;
+    background: linear-gradient(316.53deg, #26FFF2 13.2%, #326CFF 71.54%);
+    border-radius: 50px;
+    transform: rotate(-90deg);
+  }
 }
