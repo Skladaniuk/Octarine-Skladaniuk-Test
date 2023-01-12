@@ -395,7 +395,7 @@ body {
   line-height: 1.1;
   color: #FFFFFF;
 }
-.hero__filminfo {
+.hero__film-info {
   padding-top: 122px;
   width: 560px;
   padding-right: 29px;
@@ -477,6 +477,11 @@ body {
       -ms-flex-align: center;
           align-items: center;
 }
+.hero__buttons-watch:hover, .hero__buttons-watch:focus {
+  background: rgba(50, 108, 255, 0.5);
+  -webkit-transition: background-color 750ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 750ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 .hero__buttons-watch span {
   margin-left: 15px;
@@ -510,6 +515,12 @@ body {
   border-radius: 100px;
   margin-left: 30px;
 }
+.hero__buttons-info:hover, .hero__buttons-info:focus {
+  background: rgba(50, 108, 255, 0.5);
+  color: #FFFFFF;
+  -webkit-transition: background-color 750ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 750ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 .hero-poster {
   position: absolute;
@@ -538,7 +549,7 @@ body {
   font-size: 28px;
   line-height: 1.4;
   color: #FFFFFF;
-  margin-left: 15px;
+  margin-left: 23px;
 }
 .trend__title::before {
   position: absolute;
@@ -563,4 +574,79 @@ body {
 }
 .trend__item:not(:last-child) {
   margin-right: 41px;
+}
+
+.trend__title--movies {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.4;
+  color: #FFFFFF;
+  margin-left: 23px;
+  margin-top: 68px;
+  margin-bottom: 47px;
+}
+.trend__title--movies::before {
+  position: absolute;
+  display: block;
+  top: 475px;
+  left: 65px;
+  content: "";
+  width: 35px;
+  height: 8px;
+  background: linear-gradient(316.53deg, #26fff2 13.2%, #326cff 71.54%);
+  border-radius: 50px;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+
+.movies__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.movies__item:not(:last-child) {
+  margin-right: 41px;
+}
+
+.movies__item img {
+  border-radius: 20px;
+}
+
+.button__see-more {
+  width: 141px;
+  height: 50px;
+  background: linear-gradient(316.53deg, #26FFF2 13.2%, #326CFF 71.54%);
+  -webkit-box-shadow: 0px 4px 50px rgba(50, 108, 255, 0.5);
+          box-shadow: 0px 4px 50px rgba(50, 108, 255, 0.5);
+  border: #26FFF2;
+  border-radius: 100px;
+  font-family: "Mulish";
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 1.25;
+  text-align: center;
+  margin-top: 55px;
+  color: #FFFFFF;
+}
+.button__see-more:hover, .button__see-more:focus {
+  background: rgba(50, 108, 255, 0.5);
+  -webkit-transition: background-color 750ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 750ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer .container {
+  padding: 70px 245px;
+}
+
+.footer {
+  background-color: #101012;
+}
+
+.footer-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }/*# sourceMappingURL=main.css.map */
