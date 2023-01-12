@@ -1,0 +1,63 @@
+.hero {
+  background-color: #000;
+  padding-left: 84px;
+
+  &__title {
+    font-family: "Marcellus";
+    width: 532px;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 1.1;
+    color: $basic-text-color;
+  }
+
+  &__filminfo {
+    padding-top: 122px;
+    padding-right: 29px;
+    padding-bottom: 204px;
+  }
+
+  &__info {
+    display: flex;
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 1.6;
+    color: $basic-text-color;
+    margin-top: 32px;
+    margin-bottom: 32px;
+  }
+
+  &__description {
+    font-family: "Mulish";
+    color: $secondly-text-color;
+    width: 507px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 35px;
+  }
+}
+
+.hero__info-date {
+  margin-right: 18px;
+}
+
+.hero__info-age {
+  margin-right: 18px;
+}
+
+.hero__info-duration {
+  margin-right: 41px;
+}
+
+.star {
+  width: 16px;
+  height: 15px;
+  margin-left: 5px;
+}
+.hero__info-rate {
+  align-items: center;
+  display: flex;
+}

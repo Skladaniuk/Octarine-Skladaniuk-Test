@@ -1,0 +1,34 @@
+h1,
+h2,
+h3,
+p,
+ul,
+li,
+a {
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+li {
+  list-style-type: none;
+}
+
+ul {
+  margin-left: 0;
+
+  padding-left: 0;
+}
+a {
+  text-decoration: none;
+  cursor: default;
+}
+
+.container {
+    width: 1600px;
+    margin: 0 auto;
+}
+
