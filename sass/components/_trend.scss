@@ -1,0 +1,43 @@
+.trend .container {
+  padding-left: 80px;
+  padding-right: 80px;
+  position: relative;
+  margin-top: 68px;
+}
+
+.trend {
+  &__title {
+    font-family: "Mulish";
+    margin-bottom: 47px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.4;
+    color: $basic-text-color;
+    margin-left: 15px;
+    &::before {
+      position: absolute;
+      display: block;
+      top: 10px;
+      left: 65px;
+      content: "";
+      width: 35px;
+      height: 8px;
+      background: linear-gradient(316.53deg, #26fff2 13.2%, #326cff 71.54%);
+      border-radius: 50px;
+      transform: rotate(-90deg);
+    }
+  }
+
+  &__items {
+    display: flex;
+  }
+
+  &__item img {
+    border-radius: 20px;
+  }
+
+  &__item:not(:last-child) {
+    margin-right: 41px;
+  }
+}

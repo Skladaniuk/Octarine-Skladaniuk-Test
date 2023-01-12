@@ -1,7 +1,7 @@
 .hero {
-  background-color: #000;
-  padding-left: 84px;
-
+  
+  
+  
   &__title {
     font-family: "Marcellus";
     width: 532px;
@@ -13,8 +13,10 @@
 
   &__filminfo {
     padding-top: 122px;
+    width: 560px;
     padding-right: 29px;
-    padding-bottom: 204px;
+    padding-bottom: 184px;
+    box-shadow: 100px 0px 100px #000000;
   }
 
   &__info {
@@ -60,4 +62,63 @@
 .hero__info-rate {
   align-items: center;
   display: flex;
+}
+
+.hero__buttons{
+  display: flex;
+}
+
+.hero__buttons-watch{
+  width: 141px;
+  height: 50px;
+  background: linear-gradient(316.53deg, #26FFF2 13.2%, #326CFF 71.54%);
+  border: #26FFF2;
+  box-shadow: 0px 4px 50px rgba(50, 108, 255, 0.5);
+  border-radius: 100px;
+  font-family: 'Mulish';
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 1.25;
+  position: relative;
+  color:$basic-text-color;
+  align-items: center;
+}
+
+.hero__buttons-watch span{
+  margin-left: 15px;
+}
+.play-icon{
+  width: 14px;
+  height: 18px;
+  position: absolute;
+  top: 15px;
+  left:30px;
+  margin-right: 15px;
+}
+
+.hero__buttons-info{
+  width: 195px;
+  height: 50px;
+  font-family: 'Mulish';
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #323232;
+  justify-content: center;
+  align-items: center;
+  background-color: $basic-text-color;
+  border: $basic-text-color;
+  border-radius: 100px;
+  margin-left: 30px;
+}
+.hero-poster{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.hero .container {
+  position: relative;
+  overflow: hidden;
+  padding-left: 85px;
 }
